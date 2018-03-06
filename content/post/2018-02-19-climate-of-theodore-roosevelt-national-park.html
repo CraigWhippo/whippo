@@ -1,0 +1,31 @@
+---
+title: Climate of Theodore Roosevelt National Park
+author: Craig Whippo
+date: '2018-02-19'
+slug: climate-of-theodore-roosevelt-national-park
+categories:
+  - THRO
+  - Natural History
+tags:
+  - Climate
+summary: How to make a Walter and Leith Climate Diagram
+---
+
+
+
+<p>Climate is an important factor in plant ecology and evolution. To get a feel for some of the abiotic stressors of plant physiology and development, Walter and Leith climate diagrams can be informative.</p>
+<div id="how-to-making-a-climate-diagram" class="section level2">
+<h2>How to making a climate diagram?</h2>
+<p>The first thing to do is to generate a table of the monthly average precipitation (mm), average maximum and minimum temperatures, and absolute minimum monthly temperatures of Medora, ND, which is where the park headquarters is located. I entered the data in excel and saved the file as a<code>.csv</code>.</p>
+<p>To gather the numerical values needed, I collected historical weather data from the <a href="http://www.intellicast.com/Local/History.aspx?location=USND0234">intellicast</a> website. I needed to convert the precipitation to metric units, but that is not hard.</p>
+<p>Then I ran the R code below to generate the diagram.</p>
+<pre class="r"><code># Load Packages
+library(tidyverse)
+library(climatol)
+
+# Make Walter and Leith Diagram
+data &lt;- read_csv(&quot;medora-historical-weather.csv&quot;, col_names = TRUE) %&gt;% 
+  diagwl(est=&quot;Medora, ND&quot;,alt=691,per=&quot;1948-2018&quot;,mlab=&quot;en&quot;)</code></pre>
+<p><img src="/post/2018-02-19-climate-of-theodore-roosevelt-national-park_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p>As you can see, the growing season is about 7 months long, but below freezing temperatues can occur in June and August. The average temperature is 6.9 <sup>o</sup>C, which slightly warmer than a household refrigerator. The average high temperature of the year is 30 <sup>o</sup>C, and the average low temperature of the year is -16 <sup>o</sup>C. However, it can get as cold as -45 <sup>o</sup>C. The red line shows the monthly average temperature. The blue line indicates the average monthly precipitation and shows that the precipitation increases in the spring and then decreases as the year progresses. In August, dry conditions can limit plant growth. Consequently, plants that live in park need to have strategies to avoid or resist cold and dry conditions.</p>
+</div>
