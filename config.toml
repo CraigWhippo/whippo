@@ -1,6 +1,6 @@
-baseurl = "/"
-title = "Alison Presmanes Hill"
-copyright = "&copy; 2017 Alison Presmanes Hill"
+baseurl = "elegant-swartz-2ea0cd.netlify.com"
+title = "Craig Whippo" 
+copyright = "&copy; 2018 Craig Whippo"
 theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -20,20 +20,20 @@ defaultContentLanguageInSubdir = false
   hrefTargetBlank = true
 
 [params]
-  name = "Alison Presmanes Hill"
-  description = "A site about R"
-  role = "Associate Professor, Assistant Director of the Center for Spoken Language Understanding"
-  organization = "Oregon Health & Science University (OHSU)"
-  organization_url = "http://www.ohsu.edu/xd/"
-  avatar = "aph-salt-spring-zoom.jpg"
-  email = "apresstats@gmail.com"
+  name = "Craig W. Whippo"
+  description = "A site about Plants, Education and R"
+  role = "Associate Professor of Biology, Department of Natural Sciences"
+  organization = "Dickinson State University"
+  organization_url = "http://www.dickinsonstate.edu/"
+  avatar = ""
+  email = "craigwhippo@dickinsonstate.edu"
   address = ""
   office_hours = ""
   phone = ""
   skype = ""
   telegram = ""
-  twitter = "apreshill"
-  github = "apreshill"
+  twitter = ""
+  github = "craigwhippo"
 
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = ""
@@ -126,45 +126,26 @@ defaultContentLanguageInSubdir = false
   #
   #   Full list: https://jpswalsh.github.io/academicons/
   
-  [[params.social]]
-    icon = "paper-plane"
+
+ [[params.social]]
+    icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:apresstats@gmail.com"
+    link = "mailto:craig.whippo@dickinsonstate.org"
 
   [[params.social]]
-    icon = "twitter"
+    icon = "far fa-bookmark"
     icon_pack = "fa"
-    link = "//twitter.com/apreshill"
+    link = "https://hypothes.is/users/Whippo"
 
   [[params.social]]
-    icon = "google-scholar"
+    icon = "orcid"
     icon_pack = "ai"
-    link = "https://scholar.google.com/citations?user=yGD9V6MAAAAJ&hl=en"
+    link = "https://orcid.org/0000-0002-7626-6919"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/apreshill"
-    
-  [[params.social]]
-    icon = "impactstory"
-    icon_pack = "ai"
-    link = "https://impactstory.org/u/0000-0002-8082-1890"
-    
-  [[params.social]]
-    icon = "orcid"
-    icon_pack = "ai"
-    link = "http://orcid.org/0000-0002-8082-1890"
-    
-  [[params.social]]
-    icon = "researchgate"
-    icon_pack = "ai"
-    link = "https://www.researchgate.net/profile/Alison_Hill4"
-    
-  [[params.social]]
-    icon = "linkedin"
-    icon_pack = "fa"
-    link = "https://www.linkedin.com/in/alisonpresmaneshill/"
+    link = "//github.com/craigwhippo"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -175,25 +156,25 @@ defaultContentLanguageInSubdir = false
   name = "Home"
   url = "#about"
   weight = 1
-
+  
 [[menu.main]]
-  name = "Publications"
-  url = "#publications"
+  name = "Teaching"
+  url = "#teaching"
   weight = 2
-
+  
 [[menu.main]]
   name = "Posts"
   url = "#posts"
   weight = 3
 
 [[menu.main]]
-  name = "Talks & Workshops"
-  url = "#talks"
+  name = "Publications"
+  url = "#publications"
   weight = 4
 
 [[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
+  name = "Talks"
+  url = "#talks"
   weight = 5
 
 [[menu.main]]
