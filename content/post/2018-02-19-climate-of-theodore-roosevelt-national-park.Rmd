@@ -8,11 +8,11 @@ categories:
   - Natural History
 tags:
   - Climate
-summary: How to make a Walter and Leith Climate Diagram
+summary: How to make a Walter and Leith Climate Diagram.
 ---
 Climate is an important factor in plant ecology and evolution. To get a feel for some of the abiotic stressors of plant physiology and development,  Walter and Leith climate diagrams can be informative.
 
-## How to making a climate diagram?
+## How to making a climate diagram.
 
 The first thing to do is to generate a table of the monthly average precipitation (mm), average maximum and minimum temperatures, and absolute minimum monthly temperatures of Medora, ND, which is where the park headquarters is located.  I entered the data in excel and saved the file as a `.csv`.  
 
