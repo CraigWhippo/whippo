@@ -1,4 +1,4 @@
-baseurl = "https://craigwhippo.netlify.com/"
+baseurl = "http://craigwhippo.rbind.io/"
 title = "Craig Whippo" 
 copyright = "&copy; 2018 Craig Whippo"
 theme = "hugo-academic"
