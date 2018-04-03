@@ -136,6 +136,11 @@ defaultContentLanguageInSubdir = false
     icon = "far fa-bookmark"
     icon_pack = "fa"
     link = "https://hypothes.is/users/Whippo"
+    
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "craig_whippo"
 
   [[params.social]]
     icon = "orcid"
