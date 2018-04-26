@@ -138,9 +138,19 @@ defaultContentLanguageInSubdir = false
     link = "https://hypothes.is/users/Whippo"
     
   [[params.social]]
+    icon = "leaf"
+    icon_pack = "fa"
+    link = "https://photosynq.org/users/craig-whippo"  
+    
+  [[params.social]]
+    icon = "pagelines"
+    icon_pack = "fa"
+    link = "https://www.inaturalist.org/people/whippo" 
+    
+  [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "craig_whippo"
+    link = "https://twitter.com/craig_whippo"
 
   [[params.social]]
     icon = "orcid"
